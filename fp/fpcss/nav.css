@@ -1,0 +1,74 @@
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 75px;
+    margin-left: 20px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+a.navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    display: none;
+}
+
+
+
+/* START RESPONSIVE STYLES */
+
+/* PHONE */
+@media all and (max-width:736px) {
+    header {
+        flex-direction: column;
+        width: 80vh;
+        align-items: flex-start;
+    }
+    .title {
+        width: 80%;
+    }
+
+    h1 {
+        margin: 10px;
+        font-size: 60px;
+    }
+
+    .navbar {
+        width: 80%;
+    }
+
+    .dot-icon {
+        display: none;
+    }
+
+    li {
+        margin: 10px;
+        font-size: 40px;
+    }
+}
+  

@@ -10,13 +10,14 @@
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/form.css" />
+<link rel="stylesheet" href="css/aia.css" />
 </head>
 
 <body>
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-  <h1><i class="logo fa <?=$logo?>"<?=$logo_color?>></i> Josh Danielson's SCC IT162 Portal</h1>
+  <h1><i class="logo fa <?=$logo?>" <?=$logo_color?>></i> Josh Danielson's SCC IT162 Portal</h1>
   <nav>
     <ul class="topnav" id="myTopnav">
       <?=makeLinks($nav1)?>

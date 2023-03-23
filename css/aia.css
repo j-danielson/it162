@@ -1,0 +1,12 @@
+table {
+    border-collapse: collapse;
+    margin: 15px auto;
+}
+
+table, td, th {
+    border: 3px solid black;
+}
+
+th {
+    font-size: 25px;
+}
